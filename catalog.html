@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>sport-food</title>
+	<link rel="icon" href="img/icon.png" type="icon/x-icon">
+	<link rel="stylesheet" href="style/fonts.css">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+	<!-- div .wrapp -->
+	<div class="wrapp">
+
+		<!-- nav .nav -->
+		<nav class="nav">
+
+			<!-- div .nav__info-wrapp -->
+			<div class="nav__info-wrapp">
+
+				<!-- div .nav__info -->
+				<div class="nav__info">
+
+					<ul class="nav__list">
+						<li class="nav__list-link"><a href="index.html" class="nav__list-a">Главная</a></li>
+						<li class="nav__list-link"><a href="about.html" class="nav__list-a">О нас</a></li>
+						<li class="nav__list-link"><a href="pay-delivery.html" class="nav__list-a">Оплата и Доставка</a></li>
+						<li class="nav__list-link"><a href="contacts.html" class="nav__list-a">Контакты</a></li>
+					</ul>
+
+					<div class="messenger">
+
+						<ul class="messenger__wrapp">
+							<li class="messenger__link-social">
+								<a href="#" class="messenger__link-a">
+									<img src="img/whatsapp.svg" alt="whatsapp">
+								</a>
+							</li>
+							<li class="messenger__link-social">
+								<a href="#" class="messenger__link-a">
+									<img src="img/telegram.svg" alt="telegram">
+								</a>
+							</li>
+							<li class="messenger__link-social">
+								<a href="#" class="messenger__link-a">
+									<img src="img/viber.svg" alt="viber">
+								</a>
+							</li>
+						</ul>
+
+						<ul class="messenger__wrapp">
+							<li class="messenger__link">
+								<a href="#" class="messenger__a">+38 000 000 00 00</a>
+							</li>
+							<li class="messenger__link ">
+								<a href="#" class="messenger__a">+38 000 000 00 00</a>
+							</li>
+							<li class="messenger__link">
+								<a href="#" class="messenger__a">+38 000 000 00 00</a>
+							</li>
+						</ul>
+					</div>
+					<button class="open-fone">
+						<svg enable-background="new 0 0 256 256" id="Layer_1" version="1.1" viewBox="0 0 256 256" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M38.399,76.8c1.637,0,3.274,0.625,4.524,1.875l85.075,85.076l85.075-85.076c2.5-2.5,6.55-2.5,9.05,0s2.5,6.55,0,9.05  l-89.6,89.601c-2.5,2.5-6.551,2.5-9.051,0l-89.6-89.601c-2.5-2.5-2.5-6.55,0-9.05C35.124,77.425,36.762,76.8,38.399,76.8z"/></svg>
+					</button>
+				</div>
+				<!-- /div .nav__info END -->
+			</div>
+			<!-- /div .nav__info-wrapp END -->
+
+			<!-- div .content -->
+			<div class="content">
+
+				<!-- div .nav__wrapp -->
+				<div class="nav__wrapp">
+
+					<!-- div .nav__top -->
+					<div class="nav__top">
+
+						<div class="burger-menu">
+							<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="Layer 5" id="Layer_5"><rect height="2" width="62" x="1" y="22"/><rect height="2" width="62" x="1" y="4"/><rect height="2" width="62" x="1" y="40"/><rect height="2" width="62" x="1" y="58"/></g></svg>
+						</div>
+
+						<div class="flex-item nav__search">
+
+							<div class="close-mobile-search">
+								<svg enable-background="new 0 0 32 32" id="Layer_1" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><polyline fill="none" points="   649,137.999 675,137.999 675,155.999 661,155.999  " stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/><polyline fill="none" points="   653,155.999 649,155.999 649,141.999  " stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/><polyline fill="none" points="   661,156 653,162 653,156  " stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/></g><g><path d="M11.312,12.766c0.194,0.195,0.449,0.292,0.704,0.292c0.255,0,0.51-0.097,0.704-0.292c0.389-0.389,0.389-1.02,0-1.409   L4.755,3.384c-0.389-0.389-1.019-0.389-1.408,0s-0.389,1.02,0,1.409L11.312,12.766z"/><path d="M17.407,16.048L28.652,4.793c0.389-0.389,0.389-1.02,0-1.409c-0.389-0.389-1.019-0.561-1.408-0.171L15.296,15   c0,0-0.296,0-0.296,0s0,0.345,0,0.345L3.2,27.303c-0.389,0.389-0.315,1.02,0.073,1.409c0.194,0.195,0.486,0.292,0.741,0.292   s0.528-0.097,0.722-0.292L15.99,17.458l11.249,11.255c0.194,0.195,0.452,0.292,0.706,0.292s0.511-0.097,0.705-0.292   c0.389-0.389,0.39-1.02,0.001-1.409L17.407,16.048z"/></g></svg>
+							</div>
+
+							<div class="search">
+
+								<form action="#" class="search__form">
+									<div class="search__bl search__after">
+										<input class="search__input" type="text" placeholder="Search...">
+									</div>
+									<div class="search__bl">
+										<button class="search__button">
+											<svg data-name="Layer 1" id="Layer_1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title/><ellipse class="cls-1" cx="19.55" cy="19.5" rx="18.55" ry="18.5"/><line class="cls-1" x1="47" x2="32.96" y1="47" y2="33"/></svg>
+										</button>
+									</div>
+								</form>
+
+							</div>
+
+						</div>
+
+						<div class="flex__item nav__logo">
+							<a href="index.html" class="logo">
+								<img src="img/logo.png" alt="logo.png">
+							</a>
+						</div>
+						<div class="flex-item">
+
+							<div class="search-mob-button">
+								<svg data-name="Layer 1" id="Layer_1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title/><ellipse class="cls-1" cx="19.55" cy="19.5" rx="18.55" ry="18.5"/><line class="cls-1" x1="47" x2="32.96" y1="47" y2="33"/></svg>
+							</div>
+
+							<div class="local">
+								<button class="local__btn">ru</button>
+								<button class="local__btn">en</button>
+							</div>
+
+							<div class="login">
+								<svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24"><path d="M8 9v-4l8 7-8 7v-4h-8v-6h8zm6-7c-1.787 0-3.46.474-4.911 1.295l.228.2 1.395 1.221c1.004-.456 2.115-.716 3.288-.716 4.411 0 8 3.589 8 8s-3.589 8-8 8c-1.173 0-2.284-.26-3.288-.715l-1.395 1.221-.228.2c1.451.82 3.124 1.294 4.911 1.294 5.522 0 10-4.477 10-10s-4.478-10-10-10z"/></svg>
+							</div>
+
+							<div class="basket">
+								<svg enable-background="new 0 0 512 512" id="Layer_1" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g><path d="M207.9,455.7c-30.6,0-55.4-24.9-55.4-55.4c0-30.6,24.9-55.4,55.4-55.4c30.6,0,55.4,24.9,55.4,55.4    C263.4,430.9,238.5,455.7,207.9,455.7z M207.9,366c-18.9,0-34.3,15.4-34.3,34.3s15.4,34.3,34.3,34.3c18.9,0,34.3-15.4,34.3-34.3    S226.9,366,207.9,366z"/><path d="M365,455.7c-30.6,0-55.4-24.9-55.4-55.4c0-30.6,24.9-55.4,55.4-55.4s55.4,24.9,55.4,55.4    C420.4,430.9,395.6,455.7,365,455.7z M365,366c-18.9,0-34.3,15.4-34.3,34.3s15.4,34.3,34.3,34.3s34.3-15.4,34.3-34.3    S383.9,366,365,366z"/></g><path d="M419.7,360.7H153.2c-4.9,0-9.1-3.3-10.2-8.1L76.1,77.4H10.5C4.7,77.4,0,72.6,0,66.8s4.7-10.5,10.5-10.5   h73.9c4.9,0,9.1,3.3,10.2,8.1l21,86.4h385.8c3.6,0,6.9,1.8,8.8,4.8c1.9,3,2.3,6.7,0.9,10l-81.7,188.9   C427.7,358.2,423.9,360.7,419.7,360.7z M161.5,339.6h251.3l72.6-167.8H120.8L161.5,339.6z"/></g></svg>
+							</div>
+
+						</div>
+					</div>
+					<!-- /div .nav__top END -->
+
+					<!-- div .nav__category -->
+					<div class="nav__category">
+
+						<div class="close-mobile-menu">
+							<svg enable-background="new 0 0 32 32" id="Layer_1" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><polyline fill="none" points="   649,137.999 675,137.999 675,155.999 661,155.999  " stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/><polyline fill="none" points="   653,155.999 649,155.999 649,141.999  " stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/><polyline fill="none" points="   661,156 653,162 653,156  " stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/></g><g><path d="M11.312,12.766c0.194,0.195,0.449,0.292,0.704,0.292c0.255,0,0.51-0.097,0.704-0.292c0.389-0.389,0.389-1.02,0-1.409   L4.755,3.384c-0.389-0.389-1.019-0.389-1.408,0s-0.389,1.02,0,1.409L11.312,12.766z"/><path d="M17.407,16.048L28.652,4.793c0.389-0.389,0.389-1.02,0-1.409c-0.389-0.389-1.019-0.561-1.408-0.171L15.296,15   c0,0-0.296,0-0.296,0s0,0.345,0,0.345L3.2,27.303c-0.389,0.389-0.315,1.02,0.073,1.409c0.194,0.195,0.486,0.292,0.741,0.292   s0.528-0.097,0.722-0.292L15.99,17.458l11.249,11.255c0.194,0.195,0.452,0.292,0.706,0.292s0.511-0.097,0.705-0.292   c0.389-0.389,0.39-1.02,0.001-1.409L17.407,16.048z"/></g></svg>
+						</div>
+
+						<ul class="nav__category-ul">
+							<li><a class="nav__category-link" href="catalog.html">таблетки</a></li>
+							<li><a class="nav__category-link" href="catalog.html">инъекции</a></li>
+							<li><a class="nav__category-link" href="catalog.html">пкт</a></li>
+							<li><a class="nav__category-link" href="catalog.html">жиросжигатели</a></li>
+							<li><a class="nav__category-link" href="catalog.html">блокаторы ароматазы</a></li>
+							<li><a class="nav__category-link" href="catalog.html">готовые курсы</a></li>
+							<li><a class="nav__category-link" href="catalog.html">гормон роста</a></li>
+						</ul>
+
+					</div>
+					<!-- /div .nav__category END -->
+
+					<div class="popap__cart">
+						<button class="popap__cart-close"></button>
+
+						<div class="popap__cart-bl">
+
+							<div class="popap__cart-title">
+								<h4>корзина покупок</h4>
+							</div>
+
+							<div class="popap__cart-calc">
+								<button class="popap__cart-delete"></button>
+								<div class="popap__cart-item">
+									<div class="popap__cart-img">
+										<img src="img/img-tovars/img-tovar1.png" alt="img-tovar1">
+									</div>
+
+								</div>
+								<div class="popap__cart-item">
+									<div class="popap__cart-info">
+										<a href="#" class="popap__cart-name">zero TRUE build</a>
+										<p class="popap__cart-price">за 1шт. 900 грн</p>
+									</div>
+								</div>
+							</div>
+							<div class="popap__cart-calc">
+								<button class="popap__cart-delete"></button>
+								<div class="popap__cart-item">
+									<div class="popap__cart-img">
+										<img src="img/img-tovars/img-tovar1.png" alt="img-tovar1">
+									</div>
+
+								</div>
+								<div class="popap__cart-item">
+									<div class="popap__cart-info">
+										<a href="#" class="popap__cart-name">zero TRUE build</a>
+										<p class="popap__cart-price">за 1шт. 900 грн</p>
+									</div>
+								</div>
+							</div>
+							<div class="popap__cart-calc">
+								<button class="popap__cart-delete"></button>
+								<div class="popap__cart-item">
+									<div class="popap__cart-img">
+										<img src="img/img-tovars/img-tovar1.png" alt="img-tovar1">
+									</div>
+
+								</div>
+								<div class="popap__cart-item">
+									<div class="popap__cart-info">
+										<a href="#" class="popap__cart-name">zero TRUE build</a>
+										<p class="popap__cart-price">за 1шт. 900 грн</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="popap__cart-itog">
+								<div class="popap__cart-itog-item"><span class="itog-title">Предварительная стоимость</span><span class="itog-price">900 грн</span></div>
+								<div class="popap__cart-itog-item"><span class="itog-title">Итого</span><span class="itog-price">900 грн</span></div>
+							</div>
+
+							<div class="popap__cart-button">
+								<a href="#" class="popap__cart-continue">продолжить покупки</a>
+								<a href="#" class="popap_cart-open-cart">открыть корзину</a>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+				<!-- /div .nav__wrapp END -->
+			</div>
+			<!-- /div .content END -->
+		</nav>
+		<!-- /nav .nav END -->
+
+		<!-- section -->
+		<section id="catalog" class="_padd_bott60">
+
+			<!-- div .breadcrumbs-->
+			<div class="breadcrumbs">
+
+				<!-- div .content -->
+				<div class="content">
+
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Гланая</a></li>
+						<li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Таблетки</a></li>
+					</ul>
+
+					<div class="breadcrumbs__title">
+						<p>Таблетки</p>
+					</div>
+
+				</div>
+				<!-- div .content END -->
+
+			</div>
+			<!-- /div .breadcrumbs END-->
+
+			<!-- div .content -->
+			<div class="content">
+
+				<!-- div .catalog__wrapp -->
+				<div class="catalog__wrapp">
+
+					<!-- div .filter -->
+					<div class="filter">
+
+						<div class="filter-mobile-close">
+							<img src="img/close-filter.svg" alt="close-filter.svg">
+						</div>
+
+						<div class="filter__wrapp">
+
+							<div class="filter__item">
+
+                                <h4>Цена:</h4>
+
+                                <form action="">
+
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n1" class="checkbox">
+                                        <label for="n1">от 150</label>
+                                    </p>
+
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n2" class="checkbox">
+                                        <label for="n2">200</label>
+                                    </p>
+
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n3" class="checkbox">
+                                        <label for="n3">300</label>
+                                    </p>
+
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n4" class="checkbox">
+                                        <label for="n4">Больше 300</label>
+                                    </p>
+                                </form>
+                            </div>
+
+                            <div class="filter__item">
+
+                                <h4>Другие фильтры:</h4>
+
+                                <form action="">
+
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n5" class="checkbox">
+                                        <label for="n5">все</label>
+                                    </p>
+
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n6" class="checkbox">
+                                        <label for="n6">со скидкой</label>
+                                    </p>
+
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n7" class="checkbox">
+                                        <label for="n7">хиты продаж</label>
+                                    </p>
+                                </form>
+                            </div>
+
+                            <div class="filter__item">
+
+                                <h4>Производитель:</h4>
+
+                                <form action="">
+
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n8" class="checkbox">
+                                        <label for="n8">все</label>
+                                    </p>
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n9" class="checkbox">
+                                        <label for="n9">Balkan pharmaceuticals</label>
+                                    </p>
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n10" class="checkbox">
+                                        <label for="n10">Swiss Remedies</label>
+                                    </p>
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n11" class="checkbox">
+                                        <label for="n11">Malay Tiger Ltd</label>
+                                    </p>
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n12" class="checkbox">
+                                        <label for="n12">Zhengzhou pharmaceutical</label>
+                                    </p>
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n13" class="checkbox">
+                                        <label for="n13">Magnus Pharmaceuticals</label>
+                                    </p>
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n14" class="checkbox">
+                                        <label for="n14">Cipla</label>
+                                    </p>
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n15" class="checkbox">
+                                        <label for="n15">SP labs</label>
+                                    </p>
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n16" class="checkbox">
+                                        <label for="n16">Euro prime farmaceuticals</label>
+                                    </p>
+                                    <p class="filter__label">
+                                        <input type="checkbox" id="n17" class="checkbox">
+                                        <label for="n17">wermodje</label>
+                                    </p>
+                                </form>
+                            </div>
+
+                            <div class="filter__button">
+                            	<div class="filter__button-hover"></div>
+                            	<button class="filter__button-specify">уточнить поиск</button>
+                            </div>
+
+						</div>
+					</div>
+					<!-- /div .filter END -->
+
+					<!-- div .catalog -->
+					<div class="catalog">
+
+						<!-- div .catalog__count-buy-wrapp -->
+						<div class="catalog__count-buy-wrapp">
+
+							<div class="button-wrapp">
+								<div class="mobile-button-filter">
+									<img src="img/filter.svg" alt="filter.svg">
+								</div>
+							</div>
+
+							<div class="catalog__count-buy">
+
+								<div class="catalog__count">
+									<form action="#">
+										<label class="catalog__label" for="catalog__count-id">Показывать:</label>
+										<select class="catalog__select-count" name="catalog__count-tovars" id="catalog__count-id">
+											<option value="count1">9</option>
+											<option value="count2">18</option>
+											<option value="count3">27</option>
+											<option value="count4">36</option>
+											<option value="count5">45</option>
+										</select>
+									</form>
+								</div>
+
+								<div class="catalog__buy">
+									<form action="#">
+										<label class="catalog__label" for="catalog__sort-id">Сортировать:</label>
+										<select class="catalog__select-sort" name="catalog__sort-tovars" id="catalog__sort-id">
+											<option value="sort1">По умолчанию</option>
+											<option value="sort2">По цене (возрастанию)</option>
+											<option value="sort3">По цене (убыванию)</option>
+											<option value="sort4">По имени (А-Я)</option>
+											<option value="sort5">По имени (Я-А)</option>
+										</select>
+									</form>
+								</div>
+
+							</div>
+
+						</div>
+						<!-- /div .catalog__count-buy-wrapp END -->
+
+						<!-- div .products -->
+						<div class="products">
+
+							<div class="products-item">
+								<div class="products__img">
+									<img src="img/img-tovars/img-tovar1.png" alt="img-tovar1.png">
+								</div>
+								<div class="products__info">
+									<div class="products__descript">
+										<a href="cartochka-tovara.html">Lorem ipsum dolor sit amet, consectetur.</a>
+									</div>
+									<div class="products__cost">
+										<p>1000 <span>грн</span></p>
+										<p class="old-price">1000 <span>грн</span></p>
+									</div>
+								</div>
+								<div class="products__button-buy">
+									<div class="products__buy-hover"></div>
+									<button class="products__buy">купить</button>
+								</div>
+							</div>
+
+							<div class="products-item">
+								<div class="products__img">
+									<img src="img/img-tovars/img-tovar2.png" alt="img-tovar2.png">
+								</div>
+								<div class="products__info">
+									<div class="products__descript">
+										<a href="cartochka-tovara.html">Lorem ipsum dolor sit amet, consectetur.</a>
+									</div>
+									<div class="products__cost">
+										<p>1000 <span>грн</span></p>
+										<p class="old-price">1000 <span>грн</span></p>
+									</div>
+								</div>
+								<div class="products__button-buy">
+									<div class="products__buy-hover"></div>
+									<button class="products__buy">купить</button>
+								</div>
+							</div>
+
+							<div class="products-item">
+								<div class="products__img">
+									<img src="img/img-tovars/img-tovar3.png" alt="img-tovar3.png">
+								</div>
+								<div class="products__info">
+									<div class="products__descript">
+										<a href="cartochka-tovara.html">Lorem ipsum dolor sit amet, consectetur.</a>
+									</div>
+									<div class="products__cost">
+										<p>1000 <span>грн</span></p>
+										<p class="old-price">1000 <span>грн</span></p>
+									</div>
+								</div>
+								<div class="products__button-buy">
+									<div class="products__buy-hover"></div>
+									<button class="products__buy">купить</button>
+								</div>
+							</div>
+
+							<div class="products-item">
+								<div class="products__img">
+									<img src="img/img-tovars/img-tovar4.jpg" alt="img-tovar4.jpg">
+								</div>
+								<div class="products__info">
+									<div class="products__descript">
+										<a href="cartochka-tovara.html">Lorem ipsum dolor sit amet, consectetur.</a>
+									</div>
+									<div class="products__cost">
+										<p>1000 <span>грн</span></p>
+										<p class="old-price">1000 <span>грн</span></p>
+									</div>
+								</div>
+								<div class="products__button-buy">
+									<div class="products__buy-hover"></div>
+									<button class="products__buy">купить</button>
+								</div>
+							</div>
+
+							<div class="products-item">
+								<div class="products__img">
+									<img src="img/img-tovars/img-tovar5.png" alt="img-tovar5.png">
+								</div>
+								<div class="products__info">
+									<div class="products__descript">
+										<a href="cartochka-tovara.html">Lorem ipsum dolor sit amet, consectetur.</a>
+									</div>
+									<div class="products__cost">
+										<p>1000 <span>грн</span></p>
+										<p class="old-price">1000 <span>грн</span></p>
+									</div>
+								</div>
+								<div class="products__button-buy">
+									<div class="products__buy-hover"></div>
+									<button class="products__buy">купить</button>
+								</div>
+							</div>
+
+							<div class="products-item">
+								<div class="products__img">
+									<img src="img/img-tovars/img-tovar6.png" alt="img-tovar6.png">
+								</div>
+								<div class="products__info">
+									<div class="products__descript">
+										<a href="cartochka-tovara.html">Lorem ipsum dolor sit amet, consectetur.</a>
+									</div>
+									<div class="products__cost">
+										<p>1000 <span>грн</span></p>
+										<p class="old-price">1000 <span>грн</span></p>
+									</div>
+								</div>
+								<div class="products__button-buy">
+									<div class="products__buy-hover"></div>
+									<button class="products__buy">купить</button>
+								</div>
+							</div>
+
+							<div class="products-item">
+								<div class="products__img">
+									<img src="img/img-tovars/img-tovar7.png" alt="img-tovar7.png">
+								</div>
+								<div class="products__info">
+									<div class="products__descript">
+										<a href="cartochka-tovara.html">Lorem ipsum dolor sit amet, consectetur.</a>
+									</div>
+									<div class="products__cost">
+										<p>1000 <span>грн</span></p>
+										<p class="old-price">1000 <span>грн</span></p>
+									</div>
+								</div>
+								<div class="products__button-buy">
+									<div class="products__buy-hover"></div>
+									<button class="products__buy">купить</button>
+								</div>
+							</div>
+
+							<div class="products-item">
+								<div class="products__img">
+									<img src="img/img-tovars/img-tovar8.png" alt="img-tovar8.png">
+								</div>
+								<div class="products__info">
+									<div class="products__descript">
+										<a href="cartochka-tovara.html">Lorem ipsum dolor sit amet, consectetur.</a>
+									</div>
+									<div class="products__cost">
+										<p>1000 <span>грн</span></p>
+										<p class="old-price">1000 <span>грн</span></p>
+									</div>
+								</div>
+								<div class="products__button-buy">
+									<div class="products__buy-hover"></div>
+									<button class="products__buy">купить</button>
+								</div>
+							</div>
+
+							<!-- div .product__pagination -->
+							<div class="product__pagination">
+
+								<div class="product__pagination-wrapp">
+
+									<a href="#" class="product__pagination-prev">
+										<svg id="Layer_1" style="enable-background:new 0 0 128 128;" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><line style="fill:none;stroke-width:12;stroke-linecap:square;stroke-miterlimit:10;" x1="87.5" x2="40.5" y1="111" y2="64"/><line style="fill:none;stroke-width:12;stroke-linecap:square;stroke-miterlimit:10;" x1="40.5" x2="87.5" y1="64" y2="17"/></g></svg>
+									</a>
+
+									<ul class="product__pagination-list">
+
+										<li class="product__pagination-link"><a href="#" class="product__pagination-link-a">1</a></li>
+										<li class="product__pagination-link"><a href="#" class="product__pagination-link-a">2</a></li>
+										<li class="product__pagination-link"><a href="#" class="product__pagination-link-a product__pagination-active">3</a></li>
+										<li class="product__pagination-link"><a href="#" class="product__pagination-link-a">4</a></li>
+										<li class="product__pagination-link"><a href="#" class="product__pagination-link-a">...</a></li>
+										<li class="product__pagination-link"><a href="#" class="product__pagination-link-a">10</a></li>
+
+									</ul>
+
+									<a href="#" class="product__pagination-next">
+										<svg id="Layer_1" style="enable-background:new 0 0 128 128;" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><line style="fill:none;stroke-width:12;stroke-linecap:square;stroke-miterlimit:10;" x1="87.5" x2="40.5" y1="111" y2="64"/><line style="fill:none;stroke-width:12;stroke-linecap:square;stroke-miterlimit:10;" x1="40.5" x2="87.5" y1="64" y2="17"/></g></svg>
+									</a>
+
+								</div>
+
+							</div>
+							<!-- /div .product__pagination END -->
+						</div>
+						<!-- /div .products END -->
+					</div>
+					<!-- /div .catalog END -->
+				</div>
+				<!-- div .catalog__wrapp END -->
+			</div>
+			<!-- div .content END -->
+		</section>
+		<!-- /section END -->
+
+		<!-- footer #footer -->
+		<footer id="footer" class="_padd_top60">
+
+			<!-- div .content -->
+			<div class="content">
+
+				<!-- div .footer -->
+				<div class="footer">
+
+					<div class="footer__item">
+						<ul class="footer__list">
+							<li><a class="footer__link-a" href="about.html">О нас</a></li>
+							<li><a class="footer__link-a" href="pay-delivery.html">Оплата и доставка</a></li>
+							<li><a class="footer__link-a" href="contacts.html">Контакты</a></li>
+							<li><a class="footer__link-a" href="thank-you-page.html">Спасибо за покупку</a></li>
+							<li><a class="footer__link-a" href="404.html">404-page</a></li>
+						</ul>
+					</div>
+
+					<div class="footer__item">
+						<ul class="footer__list">
+							<li><a class="footer__link-a" href="catalog.html">Таблетки</a></li>
+							<li><a class="footer__link-a" href="catalog.html">Инъекции</a></li>
+							<li><a class="footer__link-a" href="catalog.html">ПКТ</a></li>
+							<li><a class="footer__link-a" href="catalog.html">Жиросжигатели</a></li>
+							<li><a class="footer__link-a" href="catalog.html">Блокаторы ароматазы</a></li>
+							<li><a class="footer__link-a" href="catalog.html">Готовые курсы</a></li>
+							<li><a class="footer__link-a" href="catalog.html">Гормон роста</a></li>
+						</ul>
+					</div>
+
+					<div class="footer__item footer__logo-logo">
+						<div class="footer__logo">
+							<div class="footer__fone">
+								<p>bp</p>
+							</div>
+							<a href="index.html" class="footer__logo-img">
+								<img src="img/logo-bott.png" alt="logo.png">
+							</a>
+						</div>
+					</div>
+
+					<div class="footer__item">
+						<ul class="footer__list">
+							<li><a class="footer__contact-a" href="tel:+380000000000">+38 000 000 00 00</a></li>
+							<li><a class="footer__contact-a" href="mailto:boompharma@gmail.com" target="_blank">boompharma@gmail.com</a></li>
+							<li>
+								<div class="footer__social">
+									<a href="#" class="footer__social-img" target="_blank">
+										<svg enable-background="new -194.251 93.826 469.541 396.571" id="Layer_1" version="1.1" viewBox="-194.251 93.826 469.541 396.571" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Layer_1_1_"/><path d="M273.353,114.332c-0.04-0.14-0.083-0.278-0.129-0.416c-2.439-7.317-6.431-12.959-11.544-16.316  c-6.642-4.361-14.789-4.969-22.397-1.683c-3.763,1.443-7.519,2.967-11.154,4.443c-1.94,0.788-3.883,1.576-5.833,2.355  c-4.792,1.915-9.63,3.909-14.31,5.838l-2.804,1.156c-3.864,1.592-7.719,3.215-11.576,4.84c-1.812,0.763-3.624,1.526-5.438,2.287  c-2.511,1.052-5.158,1.973-7.962,2.947c-3.028,1.053-6.16,2.142-9.305,3.468c-3.141,1.324-6.287,2.631-9.433,3.938  c-2.508,1.042-5.016,2.084-7.521,3.134c-2.767,1.16-5.496,2.379-8.136,3.558c-2.872,1.283-5.589,2.497-8.345,3.638  c-4.534,1.517-9.062,3.154-13.484,4.753c-3.84,1.389-7.609,2.995-11.095,4.529c-0.602-0.09-1.275-0.153-2.002-0.153  c-1.553,0-3.084,0.361-4.472,1.056c-0.926,0.462-1.843,0.892-2.761,1.323c-0.489,0.23-0.979,0.46-1.47,0.694  c-3.503,0.544-6.229,2.033-8.334,3.181c-0.451,0.246-0.963,0.525-1.408,0.748c-0.476-0.028-1.007-0.051-1.572-0.051  c-1.553,0-3.084,0.361-4.472,1.056c-1.372,0.686-2.585,1.429-3.656,2.086c-0.266-0.013-0.543-0.021-0.831-0.021  c-1.553,0-3.084,0.361-4.472,1.056c-0.819,0.409-1.716,0.813-2.666,1.241c-0.834,0.376-1.69,0.761-2.576,1.187  c-2.956,0.89-5.851,1.851-8.657,2.782c-2.937,0.975-5.709,1.895-8.514,2.729c-2.833,0.842-5.674,1.651-8.511,2.458  c-3.16,0.899-6.427,1.829-9.656,2.799c-4.081,1.226-8.152,2.468-12.218,3.709l-5.88,1.792c-3.294,1.002-6.493,2.129-9.586,3.219  c-2.885,1.016-5.61,1.977-8.353,2.823c-2.689,0.83-5.469,1.528-8.413,2.268c-3.208,0.806-6.526,1.64-9.868,2.688  c-3.355,1.053-6.564,2.271-9.667,3.448c-2.829,1.074-5.501,2.088-8.171,2.942c-2.694,0.861-5.444,1.616-8.357,2.414  c-3.204,0.879-6.518,1.788-9.843,2.873c-3.309,1.08-6.56,2.262-9.704,3.405c-2.814,1.023-5.472,1.989-8.173,2.89  c-3.316,1.106-6.586,2.306-9.75,3.467c-2.665,0.978-5.42,1.989-8.105,2.905c-2.627,0.897-5.364,1.776-8.01,2.626  c-3.235,1.039-6.58,2.113-9.909,3.277l-0.899,0.295c-2.446,0.798-5.328,1.738-8.053,3.527c-0.549,0.141-1.014,0.287-1.392,0.406  c-0.028,0.009-0.056,0.018-0.083,0.027c-3.107,0.151-5.54,1.505-7.263,2.833c-1.077,0.268-2.109,0.523-3.14,0.779  c-1.776,0.44-3.552,0.881-5.559,1.382c-0.485,0.122-0.959,0.279-1.42,0.471c-3.15,1.313-6.327,2.461-9.691,3.678  c-2.815,1.018-5.726,2.071-8.653,3.238c-6.042,2.41-12.054,5.652-18.897,10.191c-0.843,0.476-1.7,0.938-2.555,1.399  c-6.811,3.675-16.129,8.705-18.87,20.782c-2.126,8.717,1.248,16.803,8.634,20.811c4.807,3.041,9.519,3.656,13.942,3.729  c1.688,0.329,3.369,0.636,5.042,0.94c3.753,0.684,7.298,1.329,10.667,2.195c3.892,1,7.686,2.175,11.704,3.419  c1.577,0.488,3.149,0.976,4.721,1.449c2.414,0.728,4.823,1.396,7.153,2.042c3.302,0.915,6.42,1.78,9.463,2.779  c2.555,0.84,5.125,1.86,7.845,2.94c2.735,1.086,5.563,2.209,8.536,3.205c6.676,2.237,11.854,3.942,16.789,5.529  c0.209,0.067,0.421,0.128,0.635,0.181c0.677,0.17,1.664,0.634,2.709,1.126c1.525,0.718,3.38,1.591,5.581,2.191  c1.32,1.216,2.733,1.913,4.002,2.308c1.585,0.609,3.047,0.868,4.18,1.068c0.134,0.023,0.288,0.051,0.435,0.078  c0.1,0.071,0.201,0.142,0.304,0.21l0.182,0.123c1.659,1.128,3.825,2.281,7.318,2.281c2.224,0,4.385-0.741,6.141-2.107  c1.848-1.438,3.58-2.903,5.255-4.32c2.517-2.129,4.895-4.14,7.279-5.729c2.22-1.479,4.771-2.784,7.473-4.167  c2.199-1.125,4.473-2.288,6.762-3.643l2.313-1.372c3.886-2.308,7.904-4.692,11.898-6.907c2.497-1.385,4.927-2.846,7.277-4.258  c2.386-1.435,4.644-2.792,6.954-4.069c2.111-1.036,4.225-2.058,6.333-3.077c3.382-1.635,6.88-3.326,10.313-5.052  c3.61-1.816,7.208-3.688,10.687-5.498c1.995-1.038,3.987-2.074,5.981-3.101c2.42-1.246,4.938-2.485,7.373-3.685  c3.073-1.514,6.251-3.079,9.383-4.726c3.108-1.633,6.12-3.359,9.032-5.029c2.524-1.448,4.91-2.815,7.339-4.118  c2.45-1.315,4.913-2.561,7.521-3.879c2.983-1.509,6.068-3.069,9.118-4.736c3.036-1.658,6.004-3.4,8.874-5.085  c2.533-1.487,4.926-2.891,7.373-4.25c2.374-1.319,4.764-2.613,7.155-3.908c3.032-1.643,6.168-3.34,9.269-5.088  c2.442-1.377,4.955-2.669,7.615-4.038c2.912-1.498,5.923-3.046,8.913-4.753c2.737-1.562,5.394-3.209,7.968-4.815  c-2.085,1.835-4.136,3.621-6.117,5.339c-3.673,3.186-7.515,6.38-11.23,9.47l-1.817,1.512c-1.81,1.506-3.6,3.039-5.391,4.574  c-2.628,2.252-5.11,4.378-7.68,6.444c-2.38,1.914-4.83,3.75-7.424,5.695c-2.023,1.516-4.115,3.084-6.187,4.704  c-2.526,1.976-5.074,3.882-7.771,5.901c-1.97,1.474-3.944,2.952-5.908,4.456c-2.377,1.821-4.623,3.718-6.794,5.554  c-2.24,1.894-4.357,3.682-6.536,5.328c-1.672,1.263-3.341,2.53-5.014,3.799c-2.873,2.18-5.758,4.368-8.687,6.564  c-0.548,0.41-1.047,0.872-1.492,1.376c-1.737,0.955-3.139,1.871-4.409,2.701c-1.36,0.889-2.534,1.656-4.019,2.398  c-0.229,0.114-0.454,0.237-0.673,0.369c-1.084,0.65-2.524,1.75-3.682,3.461c-1.016,0.521-2.106,1.244-3.139,2.275  c-1.297,1.298-2.218,1.941-3.286,2.298c-1.019,0.339-1.976,0.841-2.835,1.484c-0.919,0.689-2.141,1.828-3.064,3.506  c-0.027,0.016-0.055,0.031-0.083,0.046c-1.173,0.651-2.387,1.324-3.197,1.729c-0.959,0.479-1.835,1.11-2.595,1.869  c-0.548,0.548-1.03,1.131-1.446,1.749c-3.553,1.769-7.387,3.861-10.67,7.144c-1.164,1.165-2.007,2.402-2.685,3.397  c-0.03,0.043-0.06,0.087-0.089,0.131c-3.001,2.064-5.571,4.366-7.877,6.432c-0.846,0.758-1.69,1.516-2.549,2.251  c-1.03,0.883-2.029,1.783-3.024,2.683c-2.271,2.051-4.231,3.821-6.382,5.166c-2.5,1.562-4.182,4.146-4.6,7.064  c-0.332,2.318-0.773,4.64-1.24,7.099c-0.643,3.385-1.309,6.886-1.722,10.608c-0.665,5.995-1.248,12.112-1.788,17.863  c-0.249,2.641-0.51,5.281-0.772,7.924c-0.324,3.266-0.647,6.533-0.947,9.804c-0.268,2.93-0.425,5.824-0.578,8.624  c-0.17,3.135-0.332,6.095-0.633,9.007c-0.592,5.716-1.204,11.626-1.956,17.415c-0.451,3.469-1.123,6.985-1.834,10.709  c-0.417,2.181-0.832,4.356-1.203,6.521c-0.499,2.905,0.311,5.883,2.211,8.137c1.86,2.206,4.581,3.499,7.46,3.552  c0.218,0.025,0.441,0.068,0.667,0.105c2.155,0.35,6.167,1.007,10.397-1.107c5.771-2.886,11.039-4.942,17.083-6.669  c3.965-1.133,6.828-4.584,7.21-8.689c0.068-0.731,0.055-1.457-0.034-2.166c2.15-2.966,4.249-5.741,6.506-8.093  c2.46-2.563,5.348-4.912,8.405-7.399c0.963-0.784,1.926-1.567,2.882-2.362c3.827-3.184,7.789-6.233,12.112-9.323  c1.677-1.198,3.358-2.449,5.051-3.708c0.396-0.296,0.791-0.589,1.182-0.879c2.063,1.969,4.2,3.907,6.397,5.8  c1.405,1.211,2.788,2.483,4.253,3.83c2.619,2.408,5.328,4.898,8.377,7.229c2.383,1.821,4.803,3.539,7.144,5.199  c2.094,1.485,4.07,2.889,6.016,4.355c1.985,1.495,3.981,2.853,5.912,4.166c2.472,1.681,4.807,3.268,6.897,4.989  c0.556,0.458,1.16,0.854,1.801,1.183c0.349,0.213,1.179,0.856,1.734,1.286c1.212,0.938,2.561,1.983,4.074,2.85  c2.706,1.96,5.319,3.792,7.851,5.567c2.477,1.736,4.815,3.377,7.122,5.05c4.434,3.217,9.773,7.02,15.852,10.9  c0.023,0.037,0.047,0.074,0.07,0.11c0.519,0.801,1.229,1.896,2.313,2.982c2.548,2.547,5.634,3.219,7.735,3.495  c0.138,0.124,0.276,0.248,0.415,0.373c3.226,2.899,6.882,6.185,11.738,8.393c4.202,1.909,8.755,2.877,13.429,2.876  c2.273,0,4.576-0.229,6.88-0.689c0.406-0.081,0.807-0.188,1.2-0.318c6.54-2.18,12.019-6.465,15.841-12.392  c2.533-3.927,3.94-8.043,5.181-11.675c0.336-0.982,0.663-1.944,1.008-2.863c0.421-1.123,0.637-2.313,0.637-3.512l-0.005-4.931  c0.451-2.127,0.883-4.254,1.313-6.376c0.678-3.346,1.317-6.507,2.033-9.659c0.681-2.991,1.452-5.936,2.269-9.054  c0.671-2.562,1.365-5.21,2-7.875c0.572-2.403,1.121-4.808,1.669-7.206c0.739-3.235,1.503-6.581,2.3-9.8  c0.809-3.265,1.69-6.6,2.543-9.825c0.625-2.364,1.249-4.725,1.854-7.089c0.685-2.675,1.523-5.355,2.412-8.193  c0.865-2.767,1.761-5.628,2.537-8.587c0.723-2.752,1.397-5.518,2.05-8.192c0.74-3.035,1.439-5.903,2.21-8.784  c0.763-2.852,1.458-5.714,2.131-8.482c0.715-2.946,1.391-5.729,2.145-8.515c0.708-2.615,1.546-5.233,2.433-8.007  c0.905-2.83,1.842-5.757,2.665-8.783c0.808-2.969,1.604-5.947,2.403-8.933c0.715-2.672,1.431-5.35,2.157-8.028  c0.695-2.56,1.406-5.121,2.119-7.69c0.854-3.073,1.709-6.156,2.543-9.253c0.854-3.164,1.469-6.284,2.064-9.301  c0.547-2.771,1.063-5.388,1.727-7.885c0.674-2.525,1.475-5.033,2.322-7.688c1.009-3.159,2.052-6.425,2.898-9.819  c0.856-3.429,1.459-6.781,2.042-10.023c0.494-2.752,0.962-5.351,1.554-7.848c0.591-2.493,1.201-4.976,1.812-7.458  c0.816-3.323,1.661-6.759,2.452-10.194c0.628-2.734,1.352-5.457,2.118-8.339c0.792-2.979,1.61-6.058,2.333-9.212  c0.701-3.063,1.248-6.112,1.777-9.06c0.541-3.015,1.052-5.862,1.706-8.664c0.014-0.06,0.027-0.12,0.04-0.18  c0.455-2.124,0.916-4.216,1.372-6.288c1.05-4.765,2.042-9.266,2.915-13.896l0.495-2.638c0.94-5.015,1.837-9.792,2.877-14.542  c0.592-1.128,0.971-2.37,1.099-3.664c0.032-0.328,0.049-0.657,0.049-0.987c0-1.132,0.014-2.263,0.027-3.392  C275.336,128.496,275.419,121.565,273.353,114.332z M255.264,134.369c-0.004,0.311-0.008,0.622-0.012,0.933  c-0.039,0.141-0.074,0.282-0.107,0.425c-1.374,5.958-2.501,11.968-3.592,17.78l-0.492,2.619c-0.816,4.33-1.776,8.687-2.792,13.299  c-0.458,2.08-0.921,4.181-1.378,6.312c-0.762,3.276-1.338,6.486-1.895,9.591c-0.511,2.843-0.992,5.528-1.588,8.128  c-0.645,2.816-1.383,5.595-2.165,8.537c-0.776,2.917-1.578,5.933-2.281,8.994c-0.757,3.288-1.584,6.651-2.383,9.903  c-0.623,2.535-1.247,5.072-1.851,7.619c-0.719,3.03-1.257,6.025-1.777,8.921c-0.549,3.054-1.067,5.938-1.763,8.72  c-0.69,2.769-1.591,5.59-2.545,8.578c-0.883,2.765-1.796,5.624-2.598,8.626c-0.832,3.134-1.437,6.196-2.021,9.158  c-0.555,2.811-1.078,5.465-1.754,7.972c-0.821,3.05-1.663,6.082-2.502,9.105c-0.724,2.605-1.445,5.204-2.15,7.802  c-0.733,2.704-1.456,5.403-2.177,8.098c-0.791,2.958-1.58,5.908-2.381,8.851c-0.708,2.603-1.537,5.196-2.416,7.941  c-0.915,2.863-1.862,5.823-2.688,8.875c-0.822,3.037-1.562,6.078-2.275,9.02c-0.675,2.779-1.313,5.404-2.016,8.033  c-0.828,3.097-1.587,6.207-2.32,9.215c-0.632,2.591-1.285,5.271-1.964,7.854c-0.658,2.508-1.445,5.025-2.28,7.691  c-0.926,2.961-1.885,6.022-2.699,9.208c-0.592,2.312-1.203,4.622-1.814,6.935c-0.872,3.301-1.774,6.713-2.621,10.131  c-0.841,3.395-1.625,6.831-2.384,10.153c-0.534,2.34-1.07,4.685-1.627,7.027c-0.583,2.444-1.218,4.87-1.891,7.438  c-0.821,3.137-1.671,6.379-2.425,9.692c-0.768,3.383-1.462,6.808-2.133,10.119c-0.484,2.392-0.97,4.791-1.486,7.188  c-0.149,0.692-0.225,1.398-0.225,2.106l0.004,4.241c-0.189,0.542-0.378,1.093-0.568,1.649c-0.912,2.67-1.855,5.43-3.062,7.301  c-1.233,1.912-2.848,3.274-4.804,4.056c-2.697,0.429-5.204,0.127-7.465-0.899c-2.052-0.933-4.282-2.938-6.644-5.06  c-0.774-0.695-1.539-1.383-2.303-2.04c-2.044-1.852-4.372-2.591-6.243-2.938c-1.049-1.321-2.523-2.812-4.616-3.978  c-5.629-3.596-10.659-7.179-14.848-10.218c-2.437-1.769-4.84-3.453-7.384-5.237c-2.628-1.843-5.346-3.748-8.103-5.753  c-0.42-0.306-0.863-0.578-1.326-0.814c-0.347-0.213-1.179-0.857-1.734-1.287c-1.138-0.882-2.396-1.855-3.798-2.688  c-2.56-2.046-5.136-3.798-7.635-5.496c-1.813-1.232-3.524-2.397-5.118-3.598c-2.174-1.64-4.363-3.193-6.481-4.695  c-2.298-1.631-4.47-3.172-6.57-4.778c-2.329-1.779-4.592-3.86-6.987-6.063c-1.516-1.394-3.083-2.834-4.731-4.256  c-3.95-3.403-7.667-6.958-11.048-10.564c-3.343-3.565-8.774-4.193-12.841-1.482c-3.015,2.009-5.899,4.154-8.688,6.23  c-1.588,1.182-3.166,2.357-4.74,3.481c-4.725,3.377-9.066,6.72-13.271,10.218c-0.899,0.747-1.807,1.485-2.716,2.225  c-3.392,2.76-6.9,5.614-10.212,9.065c-3.739,3.896-6.797,8.148-9.754,12.262l-1.017,1.413c-0.493,0.683-0.895,1.421-1.2,2.196  c-0.878,0.312-1.749,0.633-2.616,0.966c0.138-0.899,0.268-1.804,0.386-2.711c0.786-6.048,1.411-12.09,2.016-17.934  c0.352-3.396,0.534-6.743,0.71-9.979c0.149-2.739,0.29-5.327,0.524-7.888c0.295-3.22,0.614-6.438,0.933-9.654  c0.265-2.676,0.53-5.35,0.782-8.024c0.533-5.668,1.106-11.69,1.754-17.53c0.328-2.953,0.894-5.929,1.492-9.079  c0.229-1.207,0.462-2.433,0.686-3.68c1.952-1.524,3.688-3.092,5.292-4.54c0.868-0.784,1.738-1.571,2.636-2.341  c0.969-0.831,1.923-1.684,2.878-2.539c2.298-2.059,4.469-4.003,6.693-5.395c0.642-0.4,1.236-0.873,1.771-1.408  c1.164-1.165,2.007-2.402,2.685-3.397c0.157-0.23,0.309-0.465,0.464-0.675c1.444-1.348,3.999-2.6,6.698-3.923  c0.581-0.284,1.162-0.569,1.738-0.857c0.627-0.313,1.22-0.692,1.769-1.131c0.817-0.652,1.716-1.546,2.477-2.729  c0.206-0.113,0.411-0.228,0.616-0.341c1.174-0.651,2.387-1.324,3.196-1.729c0.96-0.479,1.836-1.11,2.595-1.869  c0.573-0.571,1.175-1.293,1.705-2.178c1.96-1.15,3.558-2.427,4.839-3.591c1.463-0.47,3.57-1.322,5.477-3.228  c0.728-0.729,1.332-1.557,1.799-2.453c0.877-0.537,1.667-1.054,2.412-1.54c1.36-0.889,2.534-1.656,4.019-2.398  c0.197-0.099,0.391-0.203,0.58-0.314c-0.021,0.014-0.017,0.012-0.009,0.008c2.005-0.987,3.387-2.262,4.336-3.591  c2.288-1.724,4.553-3.442,6.812-5.156c1.662-1.261,3.32-2.52,4.98-3.773c2.615-1.976,5.043-4.027,7.39-6.011  c2.083-1.76,4.05-3.422,6.045-4.95c1.905-1.459,3.821-2.893,5.732-4.323c2.661-1.992,5.413-4.052,8.105-6.157  c1.912-1.495,3.921-3,5.864-4.457c2.613-1.959,5.315-3.984,7.96-6.111c2.812-2.261,5.53-4.59,8.16-6.843  c1.719-1.473,3.437-2.945,5.173-4.391l1.81-1.505c3.795-3.155,7.719-6.418,11.549-9.74c4.153-3.603,8.616-7.5,13.11-11.584  c2.667-2.426,5.159-4.944,7.57-7.379c1.69-1.708,3.287-3.321,4.931-4.895l1.369-1.311c3.674-3.516,7.474-7.152,11.189-10.918  c1.456-1.475,2.94-2.93,4.429-4.39c2.618-2.566,5.324-5.22,7.96-8.053c1.265-1.359,2.116-3.032,2.479-4.827  c2.116-6.442-1.388-11.784-6.079-13.794c-0.807-0.346-1.655-0.583-2.524-0.708c-9.66-1.381-17.534,2.813-23.115,6.883  c-1.171,0.337-2.306,0.878-3.439,1.635c-0.546,0.365-1.026,0.754-1.491,1.219c-0.039,0.034-0.99,0.856-4.476,2.018  c-1.473,0.491-2.812,1.318-3.909,2.416c-0.476,0.477-0.961,0.952-1.446,1.427c-0.221,0.216-0.442,0.433-0.662,0.649  c-2.325,1.37-4.605,2.767-6.821,4.124c-2.757,1.688-5.361,3.284-8.018,4.816c-2.777,1.602-5.46,3.276-8.054,4.895  c-2.71,1.691-5.269,3.288-7.871,4.772c-2.614,1.492-5.303,2.875-8.148,4.339c-2.711,1.395-5.515,2.836-8.288,4.4  c-2.953,1.664-6.013,3.321-8.973,4.924c-2.455,1.33-4.907,2.658-7.342,4.01c-2.654,1.474-5.264,3.006-7.787,4.487  c-2.864,1.682-5.57,3.271-8.337,4.781c-2.772,1.515-5.582,2.936-8.557,4.44c-2.6,1.315-5.287,2.674-7.95,4.103  c-2.676,1.436-5.297,2.938-7.831,4.391c-2.882,1.652-5.604,3.213-8.39,4.677c-2.9,1.525-5.822,2.964-8.915,4.487  c-2.512,1.237-5.11,2.517-7.687,3.843c-2.021,1.04-4.039,2.09-6.061,3.142c-3.42,1.779-6.957,3.62-10.443,5.374  c-3.292,1.655-6.718,3.311-10.031,4.913c-2.218,1.072-4.44,2.146-6.66,3.237c-0.139,0.068-0.275,0.139-0.41,0.213  c-2.716,1.494-5.31,3.053-7.818,4.562c-2.304,1.385-4.48,2.693-6.67,3.908c-4.252,2.357-8.399,4.819-12.41,7.201l-2.292,1.358  c-1.757,1.04-3.664,2.016-5.683,3.049c-3.086,1.579-6.277,3.212-9.452,5.328c-3.336,2.222-6.27,4.703-9.106,7.103  c-0.011,0.009-0.021,0.019-0.032,0.027c-0.754-0.225-1.459-0.385-2.085-0.51c-2.698-2.742-5.896-3.157-7.481-3.172  c-0.441-0.099-1.55-0.62-2.367-1.005c-1.612-0.759-3.601-1.694-6.009-2.338c-4.774-1.535-9.812-3.195-16.283-5.364  c-2.455-0.823-4.911-1.798-7.512-2.831c-2.877-1.142-5.852-2.323-8.983-3.353c-3.491-1.146-6.984-2.114-10.362-3.052  c-2.326-0.645-4.522-1.253-6.722-1.917c-1.525-0.46-3.05-0.932-4.58-1.406c-4.07-1.26-8.278-2.563-12.642-3.685  c-4.061-1.043-8.127-1.784-12.06-2.5c-1.872-0.341-3.755-0.684-5.646-1.062c-0.646-0.129-1.303-0.194-1.962-0.194  c-2.616,0-3.484-0.212-4-0.478c0.776-2.711,3.126-4.204,8.773-7.251c1.094-0.59,2.188-1.182,3.263-1.796  c0.199-0.114,0.394-0.234,0.585-0.362c5.78-3.853,10.71-6.54,15.516-8.457c2.625-1.047,5.257-2,8.044-3.007  c3.211-1.161,6.523-2.359,9.873-3.731c1.707-0.426,3.258-0.811,4.81-1.195c1.776-0.44,3.552-0.881,5.559-1.382  c1.458-0.365,2.811-1.052,3.96-2.006c0.889-0.187,1.608-0.413,2.149-0.583c0.031-0.01,0.063-0.02,0.094-0.03  c2.372-0.14,4.622-1.12,6.34-2.772c0.559-0.33,2.149-0.849,3.216-1.197l1.076-0.354c0.047-0.016,0.094-0.032,0.141-0.048  c3.114-1.09,6.363-2.134,9.506-3.143c2.733-0.877,5.559-1.785,8.358-2.741c2.897-0.989,5.761-2.04,8.531-3.056  c3.166-1.162,6.156-2.259,9.19-3.271c2.953-0.985,5.862-2.042,8.676-3.065c3.128-1.137,6.083-2.211,9.076-3.188  c2.871-0.937,5.813-1.744,8.927-2.598c2.982-0.818,6.066-1.664,9.159-2.652c3.178-1.017,6.228-2.174,9.177-3.293  c2.964-1.125,5.763-2.187,8.559-3.064c2.79-0.875,5.687-1.604,8.753-2.374c3.068-0.771,6.24-1.567,9.437-2.554  c3.121-0.963,6.162-2.035,9.103-3.071c3.024-1.065,5.881-2.072,8.759-2.948l5.899-1.798c4.038-1.232,8.08-2.466,12.131-3.683  c3.091-0.928,6.288-1.838,9.38-2.718c2.912-0.829,5.827-1.659,8.737-2.524c3.104-0.924,6.158-1.937,9.11-2.917  c3.044-1.01,5.919-1.964,8.84-2.826c0.564-0.167,1.114-0.383,1.642-0.646c0.818-0.409,1.715-0.813,2.665-1.241  c0.238-0.107,0.479-0.216,0.722-0.326c0.398,0.029,0.831,0.049,1.29,0.049c1.553,0,3.084-0.361,4.473-1.056  c1.389-0.695,2.614-1.447,3.696-2.111c0.044-0.027,0.089-0.055,0.133-0.082c0.986,0.029,2.067-0.036,3.079-0.289  c2.938-0.735,5.221-1.98,7.055-2.982c0.617-0.337,1.437-0.784,1.86-0.955c1.425-0.053,2.823-0.41,4.101-1.049  c0.926-0.463,1.843-0.893,2.761-1.323c0.034-0.016,0.068-0.032,0.103-0.049c0.556,0.076,1.169,0.128,1.824,0.128  c1.399,0,2.783-0.294,4.062-0.862c3.935-1.749,8.394-3.731,12.685-5.283c4.573-1.653,8.893-3.215,13.299-4.684  c0.219-0.073,0.434-0.153,0.646-0.241c3.135-1.291,6.217-2.667,9.197-3.999c2.652-1.185,5.157-2.304,7.71-3.374  c2.484-1.041,4.974-2.075,7.462-3.109c3.177-1.319,6.354-2.639,9.529-3.977c2.553-1.077,5.249-2.014,8.104-3.007  c2.969-1.032,6.039-2.1,9.124-3.393c1.825-0.765,3.648-1.533,5.47-2.3c3.811-1.604,7.617-3.208,11.431-4.78l2.81-1.158  c4.63-1.909,9.417-3.882,14.107-5.756c1.982-0.792,3.96-1.595,5.935-2.396c3.614-1.467,7.352-2.984,10.999-4.379  c0.165-0.063,0.328-0.13,0.489-0.202c2.115-0.943,3.207-0.227,3.564,0.008c0.953,0.626,2.357,2.454,3.478,5.718  C255.384,124.396,255.328,129.024,255.264,134.369z"/></svg>
+									</a>
+									<a href="#" class="footer__social-img" target="_blank">
+										<svg enable-background="new 0 0 24 24" id="Layer_1" version="1.1" viewBox="0 0 24 24" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g><path d="M22.6,14.3c-0.2,0-0.4-0.1-0.4-0.3c-0.1-0.3-0.2-0.5-0.2-1.1c0-0.9-0.1-1.5-0.2-2.3c-0.5-2.8-1.9-5.1-4-6.7    c-1.8-1.4-3.7-2-6.1-2.2c-0.8,0-1.1-0.1-1.5-0.3C9.8,1.2,9.8,0.9,9.9,0.7c0.2-0.2,0.5-0.3,0.7-0.1c0.1,0.1,0.1,0.1,0.9,0.1    c2.6,0.2,4.7,0.9,6.7,2.4c2.4,1.8,3.9,4.2,4.4,7.3c0.1,0.8,0.2,1.5,0.3,2.4c0,0.6,0,0.7,0.1,0.7c0.1,0.2,0,0.5-0.2,0.7    C22.7,14.3,22.6,14.3,22.6,14.3z"/></g><g><path d="M19.6,13.3c-0.1,0-0.2,0-0.2-0.1c-0.7-0.3-0.7-1-0.7-1.7c0-1.1-0.3-2.2-0.8-3.1c-0.6-1-1.4-1.9-2.4-2.5    c-0.8-0.5-2.1-0.9-3.3-1c-0.4,0-0.9-0.1-1.2-0.5c-0.2-0.2-0.2-0.5,0.1-0.7s0.5-0.2,0.7,0.1c0,0,0.1,0.1,0.5,0.2    C13.6,4.1,15,4.6,16,5.2c1.1,0.7,2.1,1.7,2.7,2.8c0.6,1,0.9,2.4,0.9,3.6c0,0.7,0.1,0.7,0.2,0.8c0.2,0.1,0.3,0.4,0.2,0.7    C19.9,13.2,19.8,13.3,19.6,13.3z"/></g><g><path d="M16.2,12.2c-0.1,0-0.2,0-0.3-0.1c-0.4-0.3-0.5-0.6-0.5-1.2c-0.1-0.6-0.1-0.9-0.3-1.3c-0.3-0.7-0.9-1-1.9-1.2    c-0.6-0.1-0.9-0.2-1.2-0.5c-0.2-0.2-0.2-0.5,0.1-0.7c0.2-0.2,0.5-0.2,0.7,0.1c0.1,0.1,0.1,0.1,0.6,0.2c1.4,0.2,2.2,0.7,2.7,1.7    c0.2,0.5,0.3,1,0.4,1.6c0,0.4,0.1,0.4,0.1,0.5c0.2,0.2,0.3,0.5,0.1,0.7C16.5,12.1,16.4,12.2,16.2,12.2z"/></g><g><path d="M18.7,23.5c-0.5,0-0.8-0.1-1.3-0.3c-0.3-0.1-0.6-0.3-0.9-0.4L14.8,22c-0.1-0.1-0.2-0.1-0.4-0.2L14,21.6    c0,0-0.2-0.1-0.2-0.1l-0.3-0.2c-0.2-0.1-0.3-0.2-0.5-0.3l-0.3-0.2c-0.2-0.1-0.3-0.2-0.5-0.3c-0.1-0.1-0.2-0.1-0.3-0.2    c-0.1-0.1-0.3-0.2-0.4-0.3L11.5,20C9,18.3,6.9,16.2,5,13.7c-0.2-0.3-0.4-0.5-0.6-0.8c-0.2-0.3-0.3-0.5-0.5-0.8    c-1.2-1.8-2.1-3.6-2.7-5.4C0.7,5.4,0.6,4.6,1.1,3.6C1.4,3.2,2.2,2.4,2.7,2c1-0.7,1.4-1,1.9-1.1c0.3-0.1,0.8,0,1.2,0.1    c0.2,0.1,0.4,0.2,0.5,0.3C7.1,1.8,9,4.4,9.6,5.5C10,6.4,10.2,7,10,7.5C9.9,8,9.6,8.3,8.7,9C8.5,9.2,8.3,9.3,8.2,9.4c0,0,0,0,0,0    c0,0-0.1,0.1-0.1,0.1C8,9.6,8,9.9,8,10.1c0,0.4,0.3,1.4,0.8,2.2c0.4,0.6,1,1.4,1.7,2c0.8,0.7,1.5,1.2,2.2,1.6    c0.9,0.4,1.4,0.6,1.7,0.4c0.1,0,0.1-0.1,0.2-0.1c0,0,0.3-0.3,0.5-0.7c0.6-0.7,0.8-1,1.3-1.1c0.6-0.2,1.3-0.2,1.9,0.2    c0.4,0.2,1.3,0.7,1.8,1.1c0.7,0.5,2.3,1.8,2.6,2.1c0.5,0.6,0.6,1.4,0.3,2.2c-0.3,0.8-1.4,2.1-2.2,2.7c-0.7,0.5-1.3,0.8-2,0.8    C18.8,23.5,18.7,23.5,18.7,23.5z M14.5,20.7l0.4,0.2c0.1,0.1,0.2,0.1,0.3,0.2l1.6,0.8c0.3,0.1,0.6,0.3,0.9,0.4    c0.5,0.2,0.7,0.2,0.9,0.2l0.2,0c0.5,0,0.9-0.2,1.4-0.6c0.6-0.5,1.6-1.7,1.8-2.3c0.2-0.5,0.1-0.9-0.1-1.2c-0.2-0.2-1.6-1.4-2.4-1.9    c-0.5-0.4-1.4-0.9-1.7-1.1c-0.4-0.2-0.8-0.2-1.1-0.1c-0.2,0.1-0.3,0.1-0.9,0.8c-0.6,0.7-0.6,0.8-0.7,0.8c0,0-0.1,0.1-0.1,0.1    c0,0-0.1,0.1-0.3,0.1c-0.7,0.3-1.4,0.2-2.6-0.4c-0.8-0.4-1.6-0.9-2.5-1.7c-0.7-0.7-1.5-1.5-1.9-2.2c-0.6-0.9-1-2.1-1-2.7    C7,9.7,7.1,9.2,7.3,9c0,0,0.1-0.1,0.1-0.1l0,0c0,0,0-0.1,0.1-0.1l0,0l0,0c0,0,0-0.1,0.1-0.1l0,0c0.1-0.1,0.3-0.3,0.5-0.5    c0.8-0.7,0.9-0.8,1-1C9.1,7,9.1,6.7,8.7,6c-0.6-1.2-2.4-3.5-3-3.9C5.7,2.1,5.5,2,5.4,2C5.2,1.9,4.9,1.9,4.8,1.9    C4.6,2,4.1,2.2,3.3,2.8C2.8,3.2,2.1,3.9,2,4.1C1.7,4.7,1.7,5.1,2.1,6.4c0.6,1.8,1.5,3.5,2.6,5.2c0.2,0.3,0.3,0.5,0.5,0.8    c0.2,0.3,0.4,0.5,0.6,0.8c1.8,2.4,3.9,4.4,6.2,6.1l0.1,0.1c0.1,0.1,0.3,0.2,0.4,0.3c0.1,0.1,0.2,0.1,0.3,0.2    c0.2,0.1,0.3,0.2,0.4,0.3l0.3,0.2c0.2,0.1,0.3,0.2,0.4,0.3l0.3,0.2l-0.1,0.5L14.5,20.7z"/></g></g></svg>
+									</a>
+									<a href="#" class="footer__social-img" target="_blank">
+										<svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1113 974q13 0 97.5 44t89.5 53q2 5 2 15 0 33-17 76-16 39-71 65.5t-102 26.5q-57 0-190-62-98-45-170-118t-148-185q-72-107-71-194v-8q3-91 74-158 24-22 52-22 6 0 18 1.5t19 1.5q19 0 26.5 6.5t15.5 27.5q8 20 33 88t25 75q0 21-34.5 57.5t-34.5 46.5q0 7 5 15 34 73 102 137 56 53 151 101 12 7 22 7 15 0 54-48.5t52-48.5zm-203 530q127 0 243.5-50t200.5-134 134-200.5 50-243.5-50-243.5-134-200.5-200.5-134-243.5-50-243.5 50-200.5 134-134 200.5-50 243.5q0 203 120 368l-79 233 242-77q158 104 345 104zm0-1382q153 0 292.5 60t240.5 161 161 240.5 60 292.5-60 292.5-161 240.5-240.5 161-292.5 60q-195 0-365-94l-417 134 136-405q-108-178-108-389 0-153 60-292.5t161-240.5 240.5-161 292.5-60z"/></svg>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<!-- /div .footer END -->
+			</div>
+			<!-- /div .content END -->
+
+			<!-- div .copyright-payment__wrapp -->
+			<div class="copyright-payment__wrapp">
+
+				<!-- div .content -->
+				<div class="content">
+
+					<!-- div .copyright-payment -->
+					<div class="copyright-payment _padd_top-bottom30">
+
+						<div class="copyright">
+							<p>&copy; 2019 Boom-pharma.ua</p>
+						</div>
+
+						<div class="payment">
+
+							<ul class="payment__list">
+								<li>
+									<div class="payment__img">
+										<img src="img/img-payment/visa.png" alt="visa">
+									</div>
+								</li>
+								<li>
+									<div class="payment__img">
+										<img src="img/img-payment/qiwi.png" alt="qiwi">
+									</div>
+								</li>
+								<li>
+									<div class="payment__img">
+										<img src="img/img-payment/privat.png" alt="privat">
+									</div>
+								</li>
+								<li>
+									<div class="payment__img">
+										<img src="img/img-payment/master.png" alt="master">
+									</div>
+								</li>
+							</ul>
+
+						</div>
+
+					</div>
+					<!-- /div .copyright-payment END -->
+				</div>
+				<!-- /div .content END -->
+			</div>
+			<!-- /div .copyright-payment__wrapp END -->
+		</footer>
+		<!-- /footer #footer END -->
+
+	</div>
+	<!-- /div .wrapp END -->
+
+	<!-- script -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/js.js"></script>
+	<!-- /script END -->
+</body>
+</html>

@@ -1,0 +1,48 @@
+/***======================= FONTS-SETTING =======================***/
+/***============================================================***/
+
+/* 1.Open Sans *************************/
+/****************************************************/
+@font-face {
+	/* название шрифта*/
+	font-family: 'Open Sans';
+	/* адрес шрифта и тип */
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+@font-face {
+	/*название шрифта*/
+	font-family: 'Open Sans Semibold';
+	/* адрес шрифта и тип */
+	src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: bold;
+}
+
+/* 2.Roboto *************************/
+/****************************************************/
+@font-face {
+	/*название шрифта*/
+	font-family: 'Roboto';
+	/* адрес шрифта и тип */
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	/*название шрифта*/
+	font-family: 'Roboto Medium';
+	/* адрес шрифта и тип */
+	src: url("../fonts/Roboto-Medium.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	/*название шрифта*/
+	font-family: 'Roboto Bold';
+	/* адрес шрифта и тип */
+	src: url("../fonts/Roboto-Bold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+}
